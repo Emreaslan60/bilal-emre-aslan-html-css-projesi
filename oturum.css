@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body{
+    background-image: url(./computer-2982270_1280.jpg);
+    font-family: sans-serif;
+    background-position: center center;
+    background-attachment:fixed;
+    height: 900px;
+    
+   
+}
+
+.baslık{
+    color: bisque;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.navbar{
+    background-color:darkslategray;
+    text-align: center;
+    position: fixed;
+    
+    
+
+
+}
+.navbar ul{
+    display: inline-flex
+    
+    
+}
+.navbar ul li{
+    list-style: none;
+    width: 150px;
+    margin: 18px;
+    padding: 12px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:white
+}
+.navbar ul li:hover{
+    background-color: black;
+    border-radius: 10px;
+    
+   
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+    
+}
+.box2{
+   
+    background-color:white;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+.box2 h2{
+    font-size: 36px;
+    text-align: center;
+
+}
+.box2 input{
+    background-color: darkgray;
+    margin: 30px 20px 10px 0px;
+    border: none;
+
+    
+}
+.input input{
+width: 80%;
+height: 100%;
+border-radius: 5px;
+font-size: 18px;
+
+}
+.box2 i{
+    font-size: 20px;
+    margin-left: 0px;
+
+}
+.beni-hatırla{
+  margin: 3px;
+  padding: 3px;
+ 
+  text-align: center;
+}
+
+
+
+.btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+.btn:hover{
+    background-color: brown;
+}
+.şifre{
+    text-decoration: none;
+    color: black;
+    margin: 3px;
+    padding: 3px;
+    
+    
+
+}
+
+footer{
+    background-color: darkslategrey;
+    margin-bottom: 0;
+   
+}
+.footer-container{
+    width: 100%;
+    
+    padding: 10px 20px 20px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+}
+.icon a{
+    background-color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.icon a i{
+    font-size: 32px;
+    color: darkslategray;
+    opacity: 0.9;
+}
+.icon a:hover{
+    background-color: black;
+}
+.footer-nav{
+    margin: 30px 0px;
+}
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footer-nav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+.footer2{
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width:600px){
+    body
+    {
+        background:none
+    }
+    .navbar{
+        display: none;
+      
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
